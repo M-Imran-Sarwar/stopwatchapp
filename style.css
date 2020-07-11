@@ -1,0 +1,44 @@
+nav{ height: 50px; background-color: rgb(234, 244, 250); text-align: center;
+    font-weight: bold; position: fixed; top: 0; width: 100%; left: 0;}
+
+#home{ padding: 8px 13px 8px 13px; font-size: 15px; border-radius: 5px; 
+       background-color: blue; border: none; cursor: pointer;
+       color: white; font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
+
+.one{ margin-top: 9px;}
+
+.outer{ width: 600px; height: 700px; text-align: center; margin: 100px auto 0px auto;} 
+
+.inner{ border: 10px solid rgb(95, 93, 93); height: 670px; border-radius: 220px;
+        background-image: url(watch.jpg); background-size: 150%; background-repeat: no-repeat; 
+        background-position: center center;}
+
+.screen{ background-color: rgb(95, 93, 93); margin: 200px 0px 0px 164px; width: 257px; height: 50px;
+         text-align: center;}
+
+#stop{ font-size: 38px; padding-top: 3px; color: white;}
+
+.num{ margin: 50px 0px 0px 170px; width: 245px; height:70px;
+      display: flex; justify-content: space-around; align-items: center; font-size: 70px;}
+  
+.dot{ margin-top: -10px;}
+
+.btn{ margin: 75px 0px 5px 158px; width: 270px; height: 40px;
+    display: flex; justify-content: space-around; align-items: center;}
+
+.btn-1{ height: 35px; width: 76px; border-radius: 10px; font-size: 18px; font-weight: bold; 
+        border: 5px solid rgb(95, 93, 93);}
+
+
+
+
+@media only screen and (max-width:760px){
+    .outer{ width: 320px; height: 400px; margin: 100px auto 0px auto; } 
+    .inner{ height: 360px; margin-left: 0px;}
+    .screen{ margin: 112px 0px 0px 85.5px; width: 132px; height: 33px;}
+    #stop{ font-size: 20px; padding-top: 5px;}
+    .num{ margin: 17px 0px 0px 85px; width: 132px; height:50px; font-size: 36px;}
+    .btn{ margin: 10px 0px 5px 83.5px; width: 136px; height: 40px;}
+    .btn-1{ height: 25px; width: 40px; border-radius: 5px; font-size: 10px; font-weight: bold; 
+            border: 3px solid rgb(95, 93, 93); padding-left: 2px;}
+}
